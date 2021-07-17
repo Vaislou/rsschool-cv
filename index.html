@@ -70,23 +70,23 @@
                                     &emsp;let arr1 = a.split('');<br>
                                     &emsp;let arr2 = b.split('');<br>
                                     &emsp;let min = arr1.length - arr2.length;<br>
-                                    &emsp;if (min < 0) {<br>
+                                    &emsp;if (min &lt; 0) {<br>
                                         &emsp;&emsp;min *= -1;<br>
-                                        &emsp;&emsp;for (let i = 0; i < min; i++) {<br>
+                                        &emsp;&emsp;for (let i = 0; i &lt; min; i++) {<br>
                                         &emsp;&emsp;&emsp;arr1.unshift(0);<br>
                                         &emsp;&emsp;}<br>
                                         &emsp;} else if (min > 0) {<br>
-                                            &emsp;&emsp;for (let i = 0; i < min; i++) {<br>
+                                            &emsp;&emsp;for (let i = 0; i &lt; min; i++) {<br>
                                                 &emsp;&emsp;&emsp;arr2.unshift(0);<br>
                                                 &emsp;&emsp;}<br>
                                                 &emsp;}<br>
-                                                &emsp;for (let i = 0; i < arr1.length; i++) {<br>
+                                                &emsp;for (let i = 0; i &lt; arr1.length; i++) {<br>
                                                     &emsp;&emsp;arr1[i] = Number(arr1[i]);<br>
                                                     &emsp;&emsp;arr2[i] = Number(arr2[i]);<br>
                                                     &emsp;}<br>
                                                     &emsp;arr1.reverse();<br>
                                                     &emsp;arr2.reverse();<br>
-                                                    &emsp;for (let i = 0; i < arr1.length; i++) {<br>
+                                                    &emsp;for (let i = 0; i &lt; arr1.length; i++) {<br>
                                                         &emsp;&emsp;if (arr1[i] + arr2[i] > 9) {<br>
                                                             &emsp;&emsp;&emsp;result.push(arr1[i] + arr2[i] - 10);<br>
                                                             &emsp;&emsp;&emsp;if (i == arr1.length - 1) {<br>
