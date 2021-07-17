@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML & CSS</title>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1><a class="title" href="#">Alexey Kanapatski (@vaislou) CV</a></h1>
+            <a href=""><img src="img/logoAva.jpg" alt="avatar"></a>
+        </header>
+        <hr>
+        <ol>
+            <li>
+                Alexey Kanapatski
+            </li>
+            <li>
+                Contacts:
+                <ul>
+                    <li>
+                        tel: +375 (29) 873-42-28
+                    </li>
+                    <li>
+                        email: vaislou@gmail.com
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Some info
+                <ul>
+                    <li>
+                        Age: 22 y.o.
+                    </li>
+                    <li>
+                        Education: BSUIR (2015-2019)
+                    </li>
+                    <li>
+                        Education: BSUIR (2015-2019)
+                    </li>
+                    <li>
+                        Work: engineer in Department for Safety and Security (2019 - now)
+                    </li>
+                    <li>
+                        Target: Front-end (fullstack) developer
+                    </li>
+                    <li>
+                        Dream: Game-developer
+                    </li>
+                </ul>
+            </li>
+            <li>
+                CSS3/HTML5, JavaScript, Bootstrap 4(5), SASS/SCSS, GULP, BEM
+            </li>
+            <li>
+                Projects from other “schools”
+                <ul>
+                    <li>
+                        <a href="https://github.com/Vaislou/vaislou.github.io" class="git-url"><h5>https://github.com/Vaislou/vaislou.github.io</h5></a> 
+                    </li>
+                    <li>
+                        Some code frome codewars <br>
+                            <i><b>Sum Strings as Numbers (4kyu)</b></i>  <br>
+                            <div class="code">
+                                function sumStrings(a,b) { <br>
+                                    &emsp;let result = [];<br>
+                                    &emsp;let arr1 = a.split('');<br>
+                                    &emsp;let arr2 = b.split('');<br>
+                                    &emsp;let min = arr1.length - arr2.length;<br>
+                                    &emsp;if (min < 0) {<br>
+                                        &emsp;&emsp;min *= -1;<br>
+                                        &emsp;&emsp;for (let i = 0; i < min; i++) {<br>
+                                        &emsp;&emsp;&emsp;arr1.unshift(0);<br>
+                                        &emsp;&emsp;}<br>
+                                        &emsp;} else if (min > 0) {<br>
+                                            &emsp;&emsp;for (let i = 0; i < min; i++) {<br>
+                                                &emsp;&emsp;&emsp;arr2.unshift(0);<br>
+                                                &emsp;&emsp;}<br>
+                                                &emsp;}<br>
+                                                &emsp;for (let i = 0; i < arr1.length; i++) {<br>
+                                                    &emsp;&emsp;arr1[i] = Number(arr1[i]);<br>
+                                                    &emsp;&emsp;arr2[i] = Number(arr2[i]);<br>
+                                                    &emsp;}<br>
+                                                    &emsp;arr1.reverse();<br>
+                                                    &emsp;arr2.reverse();<br>
+                                                    &emsp;for (let i = 0; i < arr1.length; i++) {<br>
+                                                        &emsp;&emsp;if (arr1[i] + arr2[i] > 9) {<br>
+                                                            &emsp;&emsp;&emsp;result.push(arr1[i] + arr2[i] - 10);<br>
+                                                            &emsp;&emsp;&emsp;if (i == arr1.length - 1) {<br>
+                                                                &emsp;&emsp;&emsp;&emsp;result.push(1);<br>
+                                                                &emsp;&emsp;&emsp;} else {<br>
+                                                                    &emsp;&emsp;&emsp;&emsp;arr1[i+1] += 1;<br>
+                                                                    &emsp;&emsp;&emsp;}<br>
+                                                                    &emsp;&emsp;} else {<br>
+                                                                        &emsp;&emsp;&emsp;result.push(arr1[i] + arr2[i]);<br>
+                                                                        &emsp;&emsp;}<br>
+                                                                        &emsp;}<br>
+                                                                        &emsp;result.reverse();<br>
+                                                                        &emsp;if (result[0] == 0) {<br>
+                                                                            &emsp;&emsp;result.splice(0, 1);<br>
+                                                                            &emsp;}<br>
+                                                                            &emsp;return result.join('');<br>
+                                }<br>
+                            </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Only courses by BeonMax <i>('Front-End Dev 2021', 'JavaScript for Beginners', 'HTML&CSS for Beginners')</i> 
+            </li>
+            <li>
+                <div class="code">Junior(Intern)</div>
+            </li> 
+            <li>
+                Did not pass any tests, but communicate with peoples from other countries (games) and talk with thems on English
+            </li>
+        </ol>
+    </main>
+<footer>
+    <a href="https://rs.school/index.html"><img src="img/rsLogo.svg" alt="rs.school"></a>
+    <a href="https://github.com/Vaislou"><img src="img/githubLogo.svg" alt="github"></a>
+</footer>
+</body>    
+</html>

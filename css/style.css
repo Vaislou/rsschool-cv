@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin: 32px auto;
+    padding: 0 774px;
+}
+
+.title {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+}
+
+hr {
+    border-top: 1px;
+}
+
+ol {
+    font-size: 18px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+.code {
+    background-color: rgba(27,31,35,0.05);
+    font-size: 85%;
+    padding: 4px 6px;
+    border-radius: 3px;
+    width: 500px;
+    font-size: 17px;
+}
+
+footer {
+    display: flex;
+    margin: 32px auto;
+    padding: 0 774px;
+    justify-content: space-between;
+}
+
+img {
+    display: block;
+    width: 70px;
+    margin-right: 25px;
+}
+
+.git-url {
+    display: block;
+    width: 300px;
+}
