@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Titillium Web';
-    src: url('/fonts/TitilliumWeb-Bold.woff2') format('woff2'),
-        url('/fonts/TitilliumWeb-Bold.woff') format('woff');
+    src: url('../fonts/TitilliumWeb-Bold.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Titillium Web';
-    src: url('/fonts/TitilliumWeb-Regular.woff2') format('woff2'),
-        url('/fonts/TitilliumWeb-Regular.woff') format('woff');
+    src: url('../fonts/TitilliumWeb-Regular.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Titillium Web';
-    src: url('/fonts/TitilliumWeb-Light.woff2') format('woff2'),
-        url('/fonts/TitilliumWeb-Light.woff') format('woff');
+    src: url('../fonts/TitilliumWeb-Light.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -110,7 +110,7 @@ img {
     display: block;
     width: 15px;
     height: 15px;
-    background: url('/icons/rhombus_icon.svg') center center / cover no-repeat;
+    background: url('../icons/rhombus_icon.svg') center center / cover no-repeat;
 }
 
 .header__subtitle-icon:not(:last-child) {
@@ -138,15 +138,15 @@ img {
 }
 
 .header__menu-icon_first {
-    background: url('/icons/phone_icon.svg') center center / cover no-repeat;
+    background: url('../icons/phone_icon.svg') center center / cover no-repeat;
 }
 
 .header__menu-icon_second {
-    background: url('/icons/planet_icon.svg') center center / cover no-repeat;
+    background: url('../icons/planet_icon.svg') center center / cover no-repeat;
 }
 
 .header__menu-icon_third {
-    background: url('/icons/pointer_icon.svg') center center / cover no-repeat;
+    background: url('../icons/pointer_icon.svg') center center / cover no-repeat;
 }
 
 .header__menu-text {
@@ -219,22 +219,22 @@ img {
 }
 
 .skill__icon-html {
-    background: url('/icons/skills/html_icon.svg') center center / contain no-repeat;
+    background: url('../icons/skills/html_icon.svg') center center / contain no-repeat;
 }
 .skill__icon-css {
-    background: url('/icons/skills/css_icon.svg') center center / contain no-repeat;
+    background: url('../icons/skills/css_icon.svg') center center / contain no-repeat;
 }
 .skill__icon-js {
-    background: url('/icons/skills/js_icon.svg') center center / contain no-repeat;
+    background: url('../icons/skills/js_icon.svg') center center / contain no-repeat;
 }
 .skill__icon-bem {
-    background: url('/icons/skills/bem_icon.svg') center center no-repeat;
+    background: url('../icons/skills/bem_icon.svg') center center no-repeat;
 }
 .skill__icon-git {
-    background: url('/icons/skills/git_icon.svg') center center no-repeat;
+    background: url('../icons/skills/git_icon.svg') center center no-repeat;
 }
 .skill__icon-sass {
-    background: url('/icons/skills/sass_icon.svg') center center / contain no-repeat;
+    background: url('../icons/skills/sass_icon.svg') center center / contain no-repeat;
 }
 
 .skill__title {
@@ -353,43 +353,43 @@ img {
 }
 
 .social__link-vk {
-    background: url('/icons/social/vk_icon.svg') center center no-repeat;
+    background: url('../icons/social/vk_icon.svg') center center no-repeat;
 }
 
 .social__link-vk:hover {
-    background: url('/icons/social/hover/vk_hover.svg') center center no-repeat;
+    background: url('../icons/social/hover/vk_hover.svg') center center no-repeat;
 }
 
 .social__link-inst {
-    background: url('/icons/social/instagram_icon.svg') center center / cover no-repeat;
+    background: url('../icons/social/instagram_icon.svg') center center / cover no-repeat;
 }
 
 .social__link-inst:hover {
-    background: url('/icons/social/hover/instagram_hover.svg') center center / cover no-repeat;
+    background: url('../icons/social/hover/instagram_hover.svg') center center / cover no-repeat;
 }
 
 .social__link-telegram {
-    background: url('/icons/social/telegram_logo.svg') center center / cover no-repeat;
+    background: url('../icons/social/telegram_logo.svg') center center / cover no-repeat;
 }
 
 .social__link-telegram:hover {
-    background: url('/icons/social/hover/telegram_hover.svg') center center / cover no-repeat;
+    background: url('../icons/social/hover/telegram_hover.svg') center center / cover no-repeat;
 }
 
 .social__link-github {
-    background: url('/icons/social/github_icon.svg') center center / cover no-repeat;
+    background: url('../icons/social/github_icon.svg') center center / cover no-repeat;
 }
 
 .social__link-github:hover {
-    background: url('/icons/social/hover/github_hover.svg') center center / cover no-repeat;
+    background: url('../icons/social/hover/github_hover.svg') center center / cover no-repeat;
 }
 
 .social__link-rss {
-    background: url('/icons/social/rss_icon.svg') center center no-repeat;
+    background: url('../icons/social/rss_icon.svg') center center no-repeat;
 }
 
 .social__link-rss:hover {
-    background: url('/icons/social/hover/rss_hover.svg') center center no-repeat;
+    background: url('../icons/social/hover/rss_hover.svg') center center no-repeat;
 }
 
 /* Burger */
