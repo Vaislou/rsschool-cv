@@ -26,15 +26,15 @@
     <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
     <link rel="manifest" href="icons/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#FFFFFF">
 
     <title>CV by Alexey Konopatskiy</title>
 </head>
 <body>
     <aside class="burger__menu">
-        <div class="container">
+        <nav class="container">
             <ul class="burger__menu-list">
                 <li class="burger__menu-item">
                     <a href="#about" class="burger__menu-link">About Me</a>
@@ -55,7 +55,7 @@
                     <a href="#social" class="burger__menu-link">Social</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </aside>
 
     <div class="burger__icon">
@@ -181,7 +181,7 @@ function iqTest(numbers) {
                 <h2 class="section__title">My works</h2>
 
                 <div class="works__grid">
-                    <div class="works__item">
+                    <div class="works__item works__item_active">
                         <figure class="works__figure">
                             <img src="./img/lionic_img.png" alt="Lionic" class="works__img">
                             <a href="https://vaislou-lionic.netlify.app/" class="works__link" target="_blank">
@@ -191,7 +191,7 @@ function iqTest(numbers) {
                             </a>
                         </figure>
                     </div>
-                    <div class="works__item">
+                    <div class="works__item works__item_active">
                         <figure class="works__figure">
                             <img src="./img/lagona_img.png" alt="Lagoona" class="works__img">
                             <a href="https://vaislou-lagoona.netlify.app" class="works__link" target="_blank">
@@ -201,7 +201,7 @@ function iqTest(numbers) {
                             </a>
                         </figure>
                     </div>
-                    <div class="works__item">
+                    <div class="works__item works__item_active">
                         <figure class="works__figure">
                             <img src="./img/evclid_img.png" alt="Evclid" class="works__img">
                             <a href="https://vaislou-evclid.netlify.app" class="works__link" target="_blank">
@@ -211,7 +211,7 @@ function iqTest(numbers) {
                             </a>
                         </figure>
                     </div>
-                    <div class="works__item">
+                    <div class="works__item works__item_active">
                         <figure class="works__figure">
                             <img src="./img/uber_img.png" alt="Uber" class="works__img">
                             <a href="https://vaislou-uber.netlify.app" class="works__link" target="_blank">
@@ -262,6 +262,10 @@ function iqTest(numbers) {
                         </figure>
                     </div>
                 </div>
+                <div class="works__dots">
+                    <span class="works__dot works__dot_active"></span>
+                    <span class="works__dot"></span>
+                </div>
             </section>
 
             <section class="video" id="videoCV">
@@ -289,9 +293,11 @@ function iqTest(numbers) {
                         <a href="https://github.com/Vaislou" class="social__link social__link-github" target="_blank"></a>
                     </li>
                     <li class="social__item">
-                        <a href="https://rs.school/" class="social__link social__link-rss" target="_blank"></a>
+                        <a href="https://rs.school/js/" class="social__link social__link-rss" target="_blank"></a>
                     </li>
                 </ul>
+
+                <h6 class="social__year">© 2021 Alexey Konopatskiy (@Vaislou)</h6>
             </footer>
         </div>
     </main>
